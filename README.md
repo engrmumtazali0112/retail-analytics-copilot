@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛒 Retail Analytics Copilot
 
 <div align="center">
@@ -702,3 +703,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [🔝 Back to Top](#-retail-analytics-copilot)
 
 </div>
+=======
+# retail-analytics-copilot
+A powerful local AI agent combining RAG + SQL for intelligent retail analytics
+>>>>>>> 7f46dbffc092ae14fe853e794270829a87353c7c
