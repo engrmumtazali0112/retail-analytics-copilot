@@ -13,11 +13,70 @@
 
 **🚀 A powerful local AI agent combining RAG + SQL for intelligent retail analytics**
 
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/retail-analytics-copilot?style=social)](https://github.com/yourusername/retail-analytics-copilot)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/retail-analytics-copilot?style=social)](https://github.com/yourusername/retail-analytics-copilot/fork)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/retail-analytics-copilot?style=social)](https://github.com/yourusername/retail-analytics-copilot/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/engrmumtazali0112/retail-analytics-copilot?style=social)](https://github.com/engrmumtazali0112/retail-analytics-copilot)
+[![GitHub Forks](https://img.shields.io/github/forks/engrmumtazali0112/retail-analytics-copilot?style=social)](https://github.com/engrmumtazali0112/retail-analytics-copilot/fork)
+[![GitHub Issues](https://img.shields.io/github/issues/engrmumtazali0112/retail-analytics-copilot?style=social)](https://github.com/engrmumtazali0112/retail-analytics-copilot/issues)
 
-[✨ Features](#-features) • [🚀 Quick Start](#-quick-start) • [📊 Architecture](#-architecture) • [📈 Results](#-evaluation-results) • [📚 Docs](#-documentation)
+[✨ Features](#-features) • [🚀 Quick Start](#-quick-start) • [📊 Architecture](#-architecture) • [🎬 Demo](#-demo) • [📈 Results](#-evaluation-results) • [📚 Docs](#-documentation)
+
+</div>
+
+---
+
+## 🎬 Demo
+
+<div align="center">
+
+### 📹 Watch It In Action
+
+![demo-ezgif com-optimize](https://github.com/user-attachments/assets/09636297-69ca-482c-94e0-dc53dde23412)
+
+
+*Full demonstration of the Retail Analytics Copilot in action*
+
+### 📸 Live Screenshots
+
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/engrmumtazali0112/retail-analytics-copilot/main/demo/WhatsApp%20Image%202025-11-22%20at%2023.28.02_c70afce2.jpg" alt="Agent Processing Query" width="100%"/>
+<p align="center"><b>🔍 Agent Processing Natural Language Query</b></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/engrmumtazali0112/retail-analytics-copilot/main/demo/WhatsApp%20Image%202025-11-22%20at%2023.27.57_976d6407.jpg" alt="SQL Generation" width="100%"/>
+<p align="center"><b>⚡ Automatic SQL Generation</b></p>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/engrmumtazali0112/retail-analytics-copilot/main/demo/WhatsApp%20Image%202025-11-22%20at%2023.27.58_ba5f2780.jpg" alt="Results Display" width="100%"/>
+<p align="center"><b>📊 Intelligent Results with Citations</b></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/engrmumtazali0112/retail-analytics-copilot/main/demo/WhatsApp%20Image%202025-11-22%20at%2023.28.01_2c75ef82.jpg" alt="Hybrid Processing" width="100%"/>
+<p align="center"><b>🔄 Hybrid RAG + SQL Processing</b></p>
+</td>
+</tr>
+</table>
+
+### 📋 Output Examples
+
+<table>
+<tr>
+<td width="33%">
+<img src="https://raw.githubusercontent.com/engrmumtazali0112/retail-analytics-copilot/main/demo/ohj.jpg" alt="Query Execution" width="100%"/>
+<p align="center"><b>Query Execution Flow</b></p>
+</td>
+<td width="33%">
+<img src="https://raw.githubusercontent.com/engrmumtazali0112/retail-analytics-copilot/main/demo/output_hybrid_json.jpg" alt="JSON Output 1" width="100%"/>
+<p align="center"><b>Structured JSON Output</b></p>
+</td>
+<td width="33%">
+<img src="https://raw.githubusercontent.com/engrmumtazali0112/retail-analytics-copilot/main/demo/output_hybrid_json3.jpg" alt="JSON Output 2" width="100%"/>
+<p align="center"><b>Complete Response Format</b></p>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -49,6 +108,7 @@ Transform your retail data into actionable insights with the power of local AI! 
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
+- [Demo](#-demo)
 - [Features](#-features)
 - [Architecture](#-architecture)
 - [Installation](#-installation)
@@ -69,11 +129,9 @@ Transform your retail data into actionable insights with the power of local AI! 
 
 <div align="center">
 
-![Overview Diagram](https://via.placeholder.com/800x400/667eea/ffffff?text=Retail+Analytics+Copilot+Overview)
+The **Retail Analytics Copilot** is a local, privacy-first AI agent that intelligently answers retail analytics questions by:
 
 </div>
-
-The **Retail Analytics Copilot** is a local, privacy-first AI agent that intelligently answers retail analytics questions by:
 
 | Feature | Description |
 |---------|-------------|
@@ -129,14 +187,12 @@ LIMIT 1;
 
 <div align="center">
 
-![Features Overview](https://via.placeholder.com/1000x500/48bb78/ffffff?text=Powerful+Features+Built+In)
-
-</div>
-
 ### 🧠 Intelligent Query Routing
 - **Smart Classification**: Automatically identifies whether your question needs documents, data, or both
 - **DSPy-Powered**: Uses Chain-of-Thought reasoning for optimal routing decisions
 - **Adaptive Processing**: Adjusts workflow based on query complexity
+
+</div>
 
 ### 🔄 Self-Healing SQL Generation
 ```mermaid
@@ -184,10 +240,6 @@ list[dict]   # e.g., [{"product": "Chai", "revenue": 12000}]
 
 <div align="center">
 
-![Architecture Diagram](https://via.placeholder.com/1200x600/667eea/ffffff?text=8-Node+LangGraph+Architecture)
-
-</div>
-
 ### LangGraph Flow (8 Nodes)
 
 ```mermaid
@@ -222,7 +274,7 @@ graph TB
 
 ### Node Descriptions
 
-<div align="center">
+</div>
 
 | Node | Purpose | Technology | Performance |
 |------|---------|------------|-------------|
@@ -235,13 +287,9 @@ graph TB
 | **🎨 Synthesizer** | Output formatting | DSPy Module | ~300ms |
 | **✓ Validator** | Quality assurance | Pydantic | ~50ms |
 
-</div>
-
 ### Technology Stack
 
 <div align="center">
-
-![Tech Stack](https://via.placeholder.com/1000x300/38b2ac/ffffff?text=Modern+AI+Tech+Stack)
 
 ```mermaid
 graph LR
@@ -262,10 +310,6 @@ graph LR
 
 <div align="center">
 
-![Installation Guide](https://via.placeholder.com/800x200/4299e1/ffffff?text=Easy+Installation+in+5+Minutes)
-
-</div>
-
 ### Prerequisites
 
 ```
@@ -275,12 +319,14 @@ graph LR
 ✅ Internet connection (initial setup only)
 ```
 
+</div>
+
 ### 🚀 Quick Install (5 Steps)
 
 #### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/retail-analytics-copilot.git
+git clone https://github.com/engrmumtazali0112/retail-analytics-copilot.git
 cd retail-analytics-copilot
 ```
 
@@ -418,11 +464,9 @@ GM = SUM((UnitPrice - CostOfGoods) × Quantity × (1 - Discount))
 
 <div align="center">
 
-![Quick Start](https://via.placeholder.com/800x300/f6ad55/ffffff?text=Get+Started+in+3+Commands)
+### 1️⃣ Start Ollama Service
 
 </div>
-
-### 1️⃣ Start Ollama Service
 
 ```bash
 # Start Ollama in background
@@ -479,11 +523,9 @@ python compare_outputs.py
 
 <div align="center">
 
-![Usage Examples](https://via.placeholder.com/1000x400/9f7aea/ffffff?text=Flexible+Usage+Options)
+### Command Line Interface
 
 </div>
-
-### Command Line Interface
 
 ```bash
 python run_agent_hybrid.py \
@@ -554,11 +596,9 @@ Each line should be a JSON object with these fields:
 
 <div align="center">
 
-![Output Format](https://via.placeholder.com/1000x400/ed8936/ffffff?text=Structured+JSON+Outputs)
+### Output Schema
 
 </div>
-
-### Output Schema
 
 Each line in the output JSONL follows this contract:
 
@@ -654,15 +694,13 @@ Each line in the output JSONL follows this contract:
 
 <div align="center">
 
-![DSPy Optimization](https://via.placeholder.com/1000x500/805ad5/ffffff?text=AI+That+Learns+From+Examples)
-
-</div>
-
 ### What Was Optimized?
 
 **Module:** NL→SQL Generator  
 **Method:** BootstrapFewShot with 20 training examples  
 **Goal:** Improve SQL generation accuracy and reduce errors
+
+</div>
 
 ### Optimization Process
 
@@ -726,62 +764,15 @@ xychart-beta
 </tr>
 </table>
 
-### Training Examples
-
-<details>
-<summary>📚 View Sample Training Data</summary>
-
-```python
-# Example 1: Revenue Calculation
-Question: "Top 3 products by revenue"
-SQL: """
-SELECT 
-  p.ProductName, 
-  SUM(od.UnitPrice * od.Quantity * (1 - od.Discount)) as Revenue
-FROM Products p
-JOIN "Order Details" od ON p.ProductID = od.ProductID
-GROUP BY p.ProductName
-ORDER BY Revenue DESC
-LIMIT 3;
-"""
-
-# Example 2: Date Filtering
-Question: "Revenue in June 1997"
-SQL: """
-SELECT SUM(od.UnitPrice * od.Quantity * (1 - od.Discount))
-FROM Orders o
-JOIN "Order Details" od ON o.OrderID = od.OrderID
-WHERE o.OrderDate BETWEEN '1997-06-01' AND '1997-06-30';
-"""
-
-# Example 3: Gross Margin
-Question: "Top customer by gross margin"
-SQL: """
-SELECT 
-  c.CompanyName,
-  SUM((od.UnitPrice - 0.7 * od.UnitPrice) * od.Quantity * (1 - od.Discount)) as Margin
-FROM Customers c
-JOIN Orders o ON c.CustomerID = o.CustomerID
-JOIN "Order Details" od ON o.OrderID = od.OrderID
-GROUP BY c.CompanyName
-ORDER BY Margin DESC
-LIMIT 1;
-"""
-```
-
-</details>
-
 ---
 
 ## 📈 Evaluation Results
 
 <div align="center">
 
-![Evaluation Results](https://via.placeholder.com/1000x400/38b2ac/ffffff?text=100%25+Accuracy+on+Test+Suite)
+### Test Suite Performance
 
 </div>
-
-### Test Suite Performance
 
 <table>
 <tr>
@@ -859,41 +850,6 @@ LIMIT 1;
 
 </div>
 
-### Sample Outputs
-
-<details>
-<summary>📊 View Sample Outputs</summary>
-
-**Q: Top 3 products by revenue**
-```json
-{
-  "id": "q4",
-  "final_answer": [
-    {"product": "Côte de Blaye", "revenue": 141396.74},
-    {"product": "Thüringer Rostbratwurst", "revenue": 80368.67},
-    {"product": "Raclette Courdavault", "revenue": 71155.70}
-  ],
-  "confidence": 1.0,
-  "sql": "SELECT p.ProductName, SUM(od.UnitPrice * od.Quantity * (1 - od.Discount))...",
-  "explanation": "Aggregated revenue across all orders with discount applied.",
-  "citations": ["Products", "Order Details", "Orders"]
-}
-```
-
-**Q: AOV in Winter 1997**
-```json
-{
-  "id": "q3",
-  "final_answer": 1234.56,
-  "confidence": 0.95,
-  "sql": "SELECT CAST(SUM(...) AS FLOAT) / COUNT(DISTINCT OrderID)...",
-  "explanation": "Computed AOV using KPI definition and Winter 1997 campaign dates.",
-  "citations": ["kpi_definitions::chunk0", "marketing_calendar::chunk2", "Orders"]
-}
-```
-
-</details>
-
 ---
 
 ## 📁 Project Structure
@@ -919,6 +875,10 @@ retail-analytics-copilot/
 │   ├── catalog.md                     # Product categories listing
 │   └── product_policy.md              # Return policies & guidelines
 │
+├── 📂 demo/                           # 🎬 Demo media files
+│   ├── demo.mp4                       # Full demonstration video
+│   └── *.jpg                          # Screenshots
+│
 ├── 📂 outputs/                        # 📊 Generated outputs
 │   ├── outputs_hybrid.jsonl           # Agent-generated answers
 │   └── outputs_hybrid_CORRECT.jsonl   # Ground truth for validation
@@ -943,11 +903,9 @@ retail-analytics-copilot/
 
 <div align="center">
 
-![Design Decisions](https://via.placeholder.com/1000x300/ed64a6/ffffff?text=Thoughtful+Engineering+Choices)
+### 1. CostOfGoods Approximation
 
 </div>
-
-### 1. CostOfGoods Approximation
 
 ```python
 # Challenge: Northwind DB doesn't have cost data
@@ -1034,11 +992,9 @@ graph TD
 
 <div align="center">
 
-![Resilience](https://via.placeholder.com/1000x400/f687b3/ffffff?text=Built+for+Production+Reliability)
+### Error Handling Matrix
 
 </div>
-
-### Error Handling Matrix
 
 <table>
 <tr>
@@ -1126,7 +1082,7 @@ graph TD
 
 <div align="center">
 
-![Troubleshooting](https://via.placeholder.com/800x300/fc8181/ffffff?text=Quick+Solutions+to+Common+Issues)
+### Common Issues & Solutions
 
 </div>
 
@@ -1249,17 +1205,15 @@ python run_agent_hybrid.py --batch input.jsonl --out output.jsonl --verbose
 
 <div align="center">
 
-![Contributing](https://via.placeholder.com/1000x300/4fd1c5/ffffff?text=Join+Our+Community)
+We welcome contributions from developers of all skill levels! 🎉
 
 </div>
-
-We welcome contributions from developers of all skill levels! 🎉
 
 ### Development Setup
 
 ```bash
 # 1. Fork the repository
-gh repo fork yourusername/retail-analytics-copilot
+gh repo fork engrmumtazali0112/retail-analytics-copilot
 
 # 2. Clone your fork
 git clone https://github.com/YOUR_USERNAME/retail-analytics-copilot.git
@@ -1389,11 +1343,9 @@ gh pr create --title "✨ Add amazing feature" --body "Description of changes"
 
 <div align="center">
 
-![Documentation](https://via.placeholder.com/800x200/b794f4/ffffff?text=Comprehensive+Documentation)
+### Official Resources
 
 </div>
-
-### Official Resources
 
 | Resource | Description | Link |
 |----------|-------------|------|
@@ -1409,30 +1361,15 @@ gh pr create --title "✨ Add amazing feature" --body "Description of changes"
 - [DSPy Examples](https://github.com/stanfordnlp/dspy/tree/main/examples) - Official DSPy examples
 - [LangChain SQL](https://python.langchain.com/docs/use_cases/sql) - SQL chain examples
 
-### Tutorials & Guides
-
-<details>
-<summary>📖 Getting Started Guides</summary>
-
-1. **[Setting Up Your First Query](docs/tutorials/first-query.md)**
-2. **[Understanding RAG vs SQL](docs/tutorials/rag-vs-sql.md)**
-3. **[Optimizing DSPy Models](docs/tutorials/dspy-optimization.md)**
-4. **[Creating Custom Documents](docs/tutorials/custom-docs.md)**
-5. **[Advanced SQL Templates](docs/tutorials/sql-templates.md)**
-
-</details>
-
 ---
 
 ## 🎉 Support
 
 <div align="center">
 
-![Support](https://via.placeholder.com/1000x400/667eea/ffffff?text=We're+Here+to+Help)
+### Need Help?
 
 </div>
-
-### Need Help?
 
 <table>
 <tr>
@@ -1444,13 +1381,13 @@ gh pr create --title "✨ Add amazing feature" --body "Description of changes"
 </td>
 <td width="25%" align="center">
 <h3>💬 Discussions</h3>
-<a href="https://github.com/yourusername/retail-analytics-copilot/discussions">Ask a Question</a>
+<a href="https://github.com/engrmumtazali0112/retail-analytics-copilot/discussions">Ask a Question</a>
 <br><br>
 <i>Community Q&A and feature requests</i>
 </td>
 <td width="25%" align="center">
 <h3>🐛 Issues</h3>
-<a href="https://github.com/yourusername/retail-analytics-copilot/issues">Report a Bug</a>
+<a href="https://github.com/engrmumtazali0112/retail-analytics-copilot/issues">Report a Bug</a>
 <br><br>
 <i>Bug reports and technical problems</i>
 </td>
@@ -1486,18 +1423,11 @@ gh pr create --title "✨ Add amazing feature" --body "Description of changes"
 
 <div align="center">
 
-![Community](https://via.placeholder.com/1000x300/48bb78/ffffff?text=Join+Our+Growing+Community)
-
-</div>
-
 ### Join Our Community
 
-<div align="center">
-
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/retail-analytics-copilot?style=social)](https://github.com/yourusername/retail-analytics-copilot)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/retail-analytics-copilot?style=social)](https://github.com/yourusername/retail-analytics-copilot/fork)
-[![GitHub Watchers](https://img.shields.io/github/watchers/yourusername/retail-analytics-copilot?style=social)](https://github.com/yourusername/retail-analytics-copilot)
-[![Contributors](https://img.shields.io/github/contributors/yourusername/retail-analytics-copilot?style=social)](https://github.com/yourusername/retail-analytics-copilot/graphs/contributors)
+[![GitHub Stars](https://img.shields.io/github/stars/engrmumtazali0112/retail-analytics-copilot?style=social)](https://github.com/engrmumtazali0112/retail-analytics-copilot)
+[![GitHub Forks](https://img.shields.io/github/forks/engrmumtazali0112/retail-analytics-copilot?style=social)](https://github.com/engrmumtazali0112/retail-analytics-copilot/fork)
+[![GitHub Watchers](https://img.shields.io/github/watchers/engrmumtazali0112/retail-analytics-copilot?style=social)](https://github.com/engrmumtazali0112/retail-analytics-copilot)
 
 </div>
 
@@ -1508,48 +1438,33 @@ gh pr create --title "✨ Add amazing feature" --body "Description of changes"
 <td align="center" width="25%">
 <h3>⭐ Star</h3>
 <p>Star the repository to show your support</p>
-<a href="https://github.com/yourusername/retail-analytics-copilot/stargazers">
-<img src="https://img.shields.io/github/stars/yourusername/retail-analytics-copilot?style=for-the-badge" alt="Stars">
+<a href="https://github.com/engrmumtazali0112/retail-analytics-copilot/stargazers">
+<img src="https://img.shields.io/github/stars/engrmumtazali0112/retail-analytics-copilot?style=for-the-badge" alt="Stars">
 </a>
 </td>
 <td align="center" width="25%">
 <h3>🔱 Fork</h3>
 <p>Fork and contribute to the project</p>
-<a href="https://github.com/yourusername/retail-analytics-copilot/fork">
-<img src="https://img.shields.io/github/forks/yourusername/retail-analytics-copilot?style=for-the-badge" alt="Forks">
+<a href="https://github.com/engrmumtazali0112/retail-analytics-copilot/fork">
+<img src="https://img.shields.io/github/forks/engrmumtazali0112/retail-analytics-copilot?style=for-the-badge" alt="Forks">
 </a>
 </td>
 <td align="center" width="25%">
 <h3>📢 Share</h3>
 <p>Share with your network</p>
-<a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20AI%20analytics%20agent!&url=https://github.com/yourusername/retail-analytics-copilot">
+<a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20AI%20analytics%20agent!&url=https://github.com/engrmumtazali0112/retail-analytics-copilot">
 <img src="https://img.shields.io/badge/Share-Twitter-1DA1F2?style=for-the-badge&logo=twitter" alt="Share">
 </a>
 </td>
 <td align="center" width="25%">
 <h3>💬 Discuss</h3>
 <p>Join our discussions</p>
-<a href="https://github.com/yourusername/retail-analytics-copilot/discussions">
-<img src="https://img.shields.io/github/discussions/yourusername/retail-analytics-copilot?style=for-the-badge" alt="Discussions">
+<a href="https://github.com/engrmumtazali0112/retail-analytics-copilot/discussions">
+<img src="https://img.shields.io/github/discussions/engrmumtazali0112/retail-analytics-copilot?style=for-the-badge" alt="Discussions">
 </a>
 </td>
 </tr>
 </table>
-
-### Community Stats
-
-<div align="center">
-
-```
-🌟 Stars: 500+
-🔱 Forks: 100+
-👥 Contributors: 25+
-🐛 Issues Resolved: 150+
-💬 Discussions: 80+
-📦 Releases: 10+
-```
-
-</div>
 
 ### Hall of Fame 🏆
 
@@ -1557,7 +1472,7 @@ Special thanks to our top contributors:
 
 <div align="center">
 
-[![Contributors](https://contrib.rocks/image?repo=yourusername/retail-analytics-copilot)](https://github.com/yourusername/retail-analytics-copilot/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=engrmumtazali0112/retail-analytics-copilot)](https://github.com/engrmumtazali0112/retail-analytics-copilot/graphs/contributors)
 
 </div>
 
@@ -1567,15 +1482,11 @@ Special thanks to our top contributors:
 
 <div align="center">
 
-![Thank You](https://via.placeholder.com/1000x400/f687b3/ffffff?text=Thank+You+for+Using+Retail+Analytics+Copilot!)
-
-</div>
-
 Thank you for choosing **Retail Analytics Copilot**! 
 
 If this project helped you, please consider:
 
-<div align="center">
+</div>
 
 | Action | Impact |
 |--------|--------|
@@ -1586,16 +1497,14 @@ If this project helped you, please consider:
 | 📝 **Write a blog post** | Spreads awareness |
 | 💬 **Join discussions** | Builds a stronger community |
 
-</div>
-
 ### Project Stats
 
 <div align="center">
 
-![GitHub Stats](https://img.shields.io/github/last-commit/yourusername/retail-analytics-copilot?style=for-the-badge)
-![GitHub Activity](https://img.shields.io/github/commit-activity/m/yourusername/retail-analytics-copilot?style=for-the-badge)
-![Code Size](https://img.shields.io/github/languages/code-size/yourusername/retail-analytics-copilot?style=for-the-badge)
-![License](https://img.shields.io/github/license/yourusername/retail-analytics-copilot?style=for-the-badge)
+![GitHub Stats](https://img.shields.io/github/last-commit/engrmumtazali0112/retail-analytics-copilot?style=for-the-badge)
+![GitHub Activity](https://img.shields.io/github/commit-activity/m/engrmumtazali0112/retail-analytics-copilot?style=for-the-badge)
+![Code Size](https://img.shields.io/github/languages/code-size/engrmumtazali0112/retail-analytics-copilot?style=for-the-badge)
+![License](https://img.shields.io/github/license/engrmumtazali0112/retail-analytics-copilot?style=for-the-badge)
 
 </div>
 
@@ -1629,55 +1538,31 @@ copies or substantial portions of the Software.
 
 <div align="center">
 
-![Acknowledgments](https://via.placeholder.com/1000x300/805ad5/ffffff?text=Standing+on+the+Shoulders+of+Giants)
+This project wouldn't be possible without these amazing technologies and communities:
 
 </div>
-
-This project wouldn't be possible without these amazing technologies and communities:
 
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://via.placeholder.com/100/3776AB/ffffff?text=Python" width="64" height="64" alt="Python">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="64" height="64" alt="Python">
 <br><b>Python</b>
 <br><i>Core Language</i>
 </td>
 <td align="center" width="25%">
-<img src="https://via.placeholder.com/100/FF6B6B/ffffff?text=DSPy" width="64" height="64" alt="DSPy">
+<img src="https://via.placeholder.com/64/FF6B6B/ffffff?text=DSPy" width="64" height="64" alt="DSPy">
 <br><b>DSPy</b>
 <br><i>Prompting Framework</i>
 </td>
 <td align="center" width="25%">
-<img src="https://via.placeholder.com/100/00C853/ffffff?text=LG" width="64" height="64" alt="LangGraph">
+<img src="https://via.placeholder.com/64/00C853/ffffff?text=LG" width="64" height="64" alt="LangGraph">
 <br><b>LangGraph</b>
 <br><i>Agent Orchestration</i>
 </td>
 <td align="center" width="25%">
-<img src="https://via.placeholder.com/100/000000/ffffff?text=Ollama" width="64" height="64" alt="Ollama">
+<img src="https://via.placeholder.com/64/000000/ffffff?text=Ollama" width="64" height="64" alt="Ollama">
 <br><b>Ollama</b>
 <br><i>Local AI Models</i>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<img src="https://via.placeholder.com/100/003B57/ffffff?text=SQLite" width="64" height="64" alt="SQLite">
-<br><b>SQLite</b>
-<br><i>Database Engine</i>
-</td>
-<td align="center" width="25%">
-<img src="https://via.placeholder.com/100/48bb78/ffffff?text=NW" width="64" height="64" alt="Northwind">
-<br><b>Northwind</b>
-<br><i>Sample Database</i>
-</td>
-<td align="center" width="25%">
-<img src="https://via.placeholder.com/100/f6ad55/ffffff?text=BM25" width="64" height="64" alt="BM25">
-<br><b>BM25</b>
-<br><i>Retrieval Algorithm</i>
-</td>
-<td align="center" width="25%">
-<img src="https://via.placeholder.com/100/9f7aea/ffffff?text=PD" width="64" height="64" alt="Pydantic">
-<br><b>Pydantic</b>
-<br><i>Data Validation</i>
 </td>
 </tr>
 </table>
@@ -1696,14 +1581,11 @@ This project wouldn't be possible without these amazing technologies and communi
 
 <div align="center">
 
-![Contact](https://via.placeholder.com/1000x300/4299e1/ffffff?text=Let's+Connect)
-
 ### Built with ❤️ by **Mumtaz Ali**
 
 [![Email](https://img.shields.io/badge/Email-engrmumtazali01%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:engrmumtazali01@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/yourhandle)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/engrmumtazali0112)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/mumtaz-ali)
 
 </div>
 
@@ -1713,16 +1595,14 @@ This project wouldn't be possible without these amazing technologies and communi
 
 ### 🚀 Powered By
 
-![Flask](https://img.shields.io/badge/Flask-Framework-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Automated-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Powered-FF6B6B?style=for-the-badge&logo=ai&logoColor=white)
+![Local](https://img.shields.io/badge/100%25-Local-00C853?style=for-the-badge&logo=security&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open-Source-blue?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Powered-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 
 ### ⭐ If you found this helpful, please star the repository! ⭐
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/retail-analytics-copilot&type=Date)](https://star-history.com/#yourusername/retail-analytics-copilot&Date)
 
 ---
 
